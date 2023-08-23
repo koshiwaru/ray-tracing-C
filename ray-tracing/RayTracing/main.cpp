@@ -64,7 +64,7 @@ bool IsHitRayAndObject(const Position3& eye,const Vector3& ray,const Sphere& sp,
 	//auto vDist = v.Magnitude();//垂線の大きさ
 
 	//dと半径と垂線の大きさから交点までの距離ｔを求めて
-	// 参照ｔに代入してください
+	// 参照ｔに代入してます
 
 	auto vLen2 = Dot(v, v);//自身をない席すると大きさの２乗になる
 	auto radius2 = sp.radius * sp.radius;
@@ -185,7 +185,7 @@ void RayTracing(const Position3& eye,const Sphere& sphere,const Plane& plane) {
 
 				GetColorF2(GetFloorColor(P2), col2.x, col2.y, col2.z);
 
-				//今から皆さんには、↑のbの計算式をきちんと
+				
 				//法線ベクトル及び
 
 				// 赤1.0,緑0.5,青0.5

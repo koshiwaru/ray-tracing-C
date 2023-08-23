@@ -46,7 +46,7 @@ float operator*(const Vector2& va, const Vector2& vb);
 float operator%(const Vector2& va, const Vector2& vb);
 
 //とりあえず「座標」って意味だとベクタより
-//Positionのほうがよくね？って理由でこの名前
+//Positionのほうがよくね？（知らんけど）って理由でこの名前
 typedef Vector2 Position2;
 
 
